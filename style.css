@@ -1,0 +1,119 @@
+*{
+	margin:0px;
+	padding:0px;
+    background-color:#0d0d20;
+}
+.dot {
+    margin-top: 16px;
+    height: 48px;
+    width: 48px;
+    background-color: #9B51E0;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .rectangle{
+    background: url("../images/cet.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 270px;
+    height: 275px;
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+.links{
+    display:inline-block;
+    background: #9B51E0;
+    width: 265px;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 7px rgba(255, 255, 255, 0.3);
+}
+
+.links span{
+    color: white;
+    margin-left: 10px;
+    margin-top: 21px;
+    display: inline-block;
+    width: 250px;
+    height: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+background-color:  #9B51E0;
+
+}
+.icon1{
+
+    background-image: "image/taxi.jpg";
+    
+}
+    h2{
+    margin-left:10px;
+    margin-top: 50px;
+}
+li.leaf {
+    background: url('image/user.png') no-repeat left top;
+
+        height: 54px;
+        padding-left: 44px;
+
+    padding-top: 3px;
+    }
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 100px; /* change it to desired width */
+    background-color:#0d0d20; /* change to desired color */
+}
+.logo {
+   
+    vertical-align: top;
+    width: 322px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 16px;    /* if you want it vertically middle of the navbar. */
+    background-color: #0d0d20;
+}
+
+.footer{
+   height: 60px ;
+   width: 100%;
+   background-color:  #9B51E0 ;
+}
+#footerlist li
+{
+  display: inline;
+  
+  padding-right: 5px;
+}
+#oneimage{
+    margin-top:10px ;
+    margin-left:16px;
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.3);
+border-radius: 5px;
+}
+
+#imagespage2{
+    margin-top: 62px;
+    width: 255px;
+   height: 168px;
+
+}
+#bigest{
+margin-top: 62px;
+width: 380px;
+height:  250px;
+
+
+}
+.bigeimag{
+    height: 331px;
+    width: 100%;
+
+}
+
+
+
