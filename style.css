@@ -1,119 +1,207 @@
-*{
-	margin:0px;
-	padding:0px;
-    background-color:#0d0d20;
+* {
+    margin: 0;
+    padding: 0;
 }
-.dot {
-    margin-top: 16px;
-    height: 48px;
-    width: 48px;
-    background-color: #9B51E0;
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-  .rectangle{
-    background: url("../images/cet.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-    width: 270px;
-    height: 275px;
-    margin-top: 18px;
-    margin-left: 16px;
-}
-
-.links{
-    display:inline-block;
-    background: #9B51E0;
-    width: 265px;
-    height: 60px;
-    border-radius: 5px;
-    box-shadow: 0px 2px 7px rgba(255, 255, 255, 0.3);
-}
-
-.links span{
+a {
+    text-decoration: none;
     color: white;
-    margin-left: 10px;
-    margin-top: 21px;
-    display: inline-block;
-    width: 250px;
-    height: 19px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-background-color:  #9B51E0;
-
 }
-.icon1{
-
-    background-image: "image/taxi.jpg";
-    
+html {
+    height: 1500px;
 }
-    h2{
-    margin-left:10px;
-    margin-top: 50px;
-}
-li.leaf {
-    background: url('image/user.png') no-repeat left top;
-
-        height: 54px;
-        padding-left: 44px;
-
-    padding-top: 3px;
-    }
-.navigation-bar {
-    width: 100%;  /* i'm assuming full width */
-    height: 100px; /* change it to desired width */
-    background-color:#0d0d20; /* change to desired color */
-}
-.logo {
-   
-    vertical-align: top;
-    width: 322px;
-    height: 40px;
-    margin-right: 20px;
-    margin-top: 16px;    /* if you want it vertically middle of the navbar. */
+body {
+    margin: 10px;
     background-color: #0d0d20;
+    color: white;
+    height: 100%;
 }
 
-.footer{
-   height: 60px ;
-   width: 100%;
-   background-color:  #9B51E0 ;
+.main {
+    height: 95%;
 }
-#footerlist li
-{
-  display: inline;
-  
-  padding-right: 5px;
-}
-#oneimage{
-    margin-top:10px ;
-    margin-left:16px;
-    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.3);
-border-radius: 5px;
-}
-
-#imagespage2{
-    margin-top: 62px;
-    width: 255px;
-   height: 168px;
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
 
 }
-#bigest{
-margin-top: 62px;
-width: 380px;
-height:  250px;
-
-
+.title a {
+    display: flex;
+    align-items: center;
 }
-.bigeimag{
-    height: 331px;
+.title-images {
+    display: flex;
+    align-items: center;
+}
+.title-images img{
+    margin: 5px;
+    border-radius: 8px;
+    height: 150px;
+}
+
+.second-title {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+}
+.second-title h4 {
+    margin-left: 10px;
+}
+.first-image {
     width: 100%;
+}
+.image-container {
+    display: inline-block;
+   
+}
+.image-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -4px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #9B51E0;;
+    width: 270px;
+}
 
+.sections-buttons a {
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #9B51E0;;
+    padding: 10px;
+    margin-top: 20px;
+    height: 48px;
+}
+a:hover {
+    fill: black;
+}
+.dot-title {
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    background-color: #9B51E0;;
+    margin: 0 20px 0 0;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.car-icon {
+   
+    background-image: url("image/car.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 40px;
+    width: 40px;
 }
 
 
+.dot-title-icon2 {
+    display: inline-block;
+    background-image: url("image/github.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+}
+.dot-title-icon3 {
+    display: inline-block;
+    background-image: url("image/google.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+}
 
+.dot-title-icon4 {
+    display: inline-block;
+    background-image: url("image/facebook.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+}
+
+.dot-title-small {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: #9B51E0;;
+    margin: 0 20px 0 0;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.dot-title-small-icon {
+    background-image: url("image/Vector (3).png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+}
+.section-one-icon {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+#big-image {
+    height: 220px;
+}
+.section-text {
+    margin-top: 75px;
+}
+
+.footer-icons {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+.bell-icon {
+    display: inline-block;
+    background-image: url("image/bell.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+}
+.cloud-icon {
+    display: inline-block;
+    background-image: url("image/cloud.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   margin-top: 5px;
+    height: 20px;
+    width: 20px;
+}
+.set-icon {
+    display: inline-block;
+    background-image: url("image/setting.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+}
+.store-icon {
+    display: inline-block;
+    background-image: url("image/Vector (3).png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+}
+.icons-page1{
+
+    width: 109px;
+    display: flex;
+    justify-content: space-around;
+
+}
